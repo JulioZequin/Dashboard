@@ -71,8 +71,9 @@ with st.expander("🛠️ Tecnologias e Ferramentas", expanded=True):
 
     with col3:
         st.markdown("- 📐 Astah")
-        st.markdown("- 🏗️ AutoCAD")
         st.markdown("- 🧩 Oracle SQL Developer")
+        st.markdown("- 🏢 Excel")
+
 
 # Idiomas
 with st.expander("🌍 Idiomas", expanded=True):
