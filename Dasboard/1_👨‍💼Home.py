@@ -28,7 +28,7 @@ st.subheader("Estudante de Engenharia de Software (FIAP)")
 
 
 # Foto/Avatar (opcional: troque pelo caminho da sua foto)
-st.image("WhatsApp Image 2025-08-27 at 10.55.02.jpeg", width=180)
+st.image("WhatsApp Image 2025-11-12 at 08.45.39.jpeg", width=180)
 
 
 st.markdown(
