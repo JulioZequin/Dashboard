@@ -103,7 +103,7 @@ def plot_distribution(x, y, title, xlabel, ylabel):
     st.plotly_chart(fig)
 
 
-plt.figure(figsize=(13, 6))
+plt.figure(figsize=(10, 6))
 
 plt.subplot(1, 2, 1)
 sns.histplot(df['IBOVESPA_pct'].dropna(), kde=True, bins=20, color='skyblue')
@@ -121,7 +121,7 @@ plt.ylabel('Frequência')
 plt.tight_layout()
 st.pyplot(plt)
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(8, 5))
 sns.boxplot(data=df[['IBOVESPA_pct', 'SELIC_pct']].dropna())
 plt.title('Boxplot da Variação Percentual Mensal do IBOVESPA e SELIC')
 plt.ylabel('Variação Percentual Mensal (%)')
@@ -142,7 +142,7 @@ st.markdown("""
 st.write("Outliers não serão levadas em consideração pois representam uma pequena fração do dataframe.")
 st.write("Necessário um gráfico de tendência para comparar a variação dos índices ao longo do tempo.")
 
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(8, 5))
 sns.lineplot(x='Data', y='IBOVESPA_pct', data=df, label='IBOVESPA_pct')
 sns.lineplot(x='Data', y='SELIC_pct', data=df, label='SELIC_pct')
 plt.title('Tendência da Variação Percentual Mensal do IBOVESPA e SELIC ao Longo do Tempo')
@@ -189,7 +189,7 @@ st.subheader(f"IC 95% para r: [{lo:.4f}, {hi:.4f}]")
 
 # 4. Visualização 1 - Dispersão com linha de regressão e IC
 
-plt.figure(figsize=(10,6))
+plt.figure(figsize=(8,5))
 sns.regplot(x=x, y=y, ci=95, line_kws={'color':'red'})
 plt.title(f"Correlação IBOVESPA x SELIC\nr = {r:.4f}, p = {p_value:.4f}", fontsize=12)
 plt.xlabel("IBOVESPA - Variação Percentual Mensal (%)")
@@ -224,7 +224,7 @@ for _ in range(n_boot):
     r_boot, _ = stats.pearsonr(x.iloc[sample_idx], y.iloc[sample_idx])
     boot_corrs.append(r_boot)
 
-plt.figure(figsize=(10,6))
+plt.figure(figsize=(8,5))
 sns.histplot(boot_corrs, bins=30, kde=True, color="skyblue")
 plt.axvline(r, color='red', linestyle='--', label=f"r observado = {r:.4f}")
 plt.axvline(lo, color='black', linestyle='--', label=f"IC95% [{lo:.2f}, {hi:.2f}]")
