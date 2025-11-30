@@ -33,6 +33,13 @@ with st.expander("🎓 Certificações", expanded=True):
 with st.expander("💻 Projetos", expanded=True):
     st.markdown("### ⚡ Projeto Fórmula E – FIAP + Tech Mahindra")
     with st.container():
+
+        st.markdown("""
+       Sistema automatizado de analise de tecidos patológicos.  
+        - Tecnologias: Python, HTML, CSS  
+        - Funcionalidades: medição automatizada de tecido, com dignóstico rápido e preciso
+        """)
+
         st.markdown("""
         Plataforma interativa para corridas da Fórmula E.  
         - Tecnologias: Python, HTML, CSS, C++  
@@ -73,6 +80,7 @@ with st.expander("🛠️ Tecnologias e Ferramentas", expanded=True):
         st.markdown("- 📐 Astah")
         st.markdown("- 🧩 Oracle SQL Developer")
         st.markdown("- 🏢 Excel")
+        st.markdown("- 🧠 Power BI")
 
 
 # Idiomas

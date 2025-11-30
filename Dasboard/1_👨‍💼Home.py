@@ -35,9 +35,9 @@ st.markdown(
         """
         ### Sobre mim  
         Sou estudante de Engenharia de Software na FIAP (4º semestre) e já acumulo experiência em projetos acadêmicos e pessoais com linguagens como Python, Java, C++, HTML, CSS, JavaScript e SQL.
-        Tenho familiaridade com metodologias ágeis, especialmente Scrum, além de utilizar ferramentas como Git, GitHub, Google Colab, IntelliJ IDEA e VS Code no desenvolvimento dos trabalhos.
+        Tenho familiaridade com metodologias ágeis, além de utilizar ferramentas como Git, GitHub, Google Colab, IntelliJ IDEA e VS Code no desenvolvimento dos trabalhos.
 
-        Atuei em iniciativas de análise de dados e participei do projeto Fórmula E em parceria com a Tech Mahindra, aplicando soluções em Python, C++ e tecnologias web.
+        Atuei em iniciativas de análise de dados e participei de um projeto da Dasa em parceria com a FIAP, em que meu grupo foi selecionado para Next, evento de inovação.
         Busco minha primeira experiência profissional na área de programação, destacando minha facilidade em aprender, boa comunicação e dedicação ao aprimoramento contínuo. 
 
  
