@@ -31,14 +31,17 @@ with st.expander("🎓 Certificações", expanded=True):
 
 # Projetos
 with st.expander("💻 Projetos", expanded=True):
-    st.markdown("### ⚡ Projeto Fórmula E – FIAP + Tech Mahindra")
-    with st.container():
 
+    st.markdown("### 🧪 Projeto FIAP + DASA")
+    with st.container():
         st.markdown("""
        Sistema automatizado de analise de tecidos patológicos.  
         - Tecnologias: Python, HTML, CSS  
         - Funcionalidades: medição automatizada de tecido, com dignóstico rápido e preciso
         """)
+
+    st.markdown("### ⚡ Projeto Fórmula E – FIAP + Tech Mahindra")
+    with st.container():
 
         st.markdown("""
         Plataforma interativa para corridas da Fórmula E.  
@@ -46,7 +49,9 @@ with st.expander("💻 Projetos", expanded=True):
         - Funcionalidades: transmissão interativa, sistema de palpites e engajamento com prêmios  
         """)
 
-    st.markdown("### 📊 Análise de Dados sobre Homicídios no Brasil")
+    st.markdown("### 📊 Análise de Dados")
+    with st.container():
+        st.markdown("### 📈 Análise de Dados sobre Homicídios no Brasil")
     with st.container():
         st.markdown("""
         Exploração estatística e visual de dados de criminalidade.  
@@ -59,6 +64,8 @@ with st.expander("💻 Projetos", expanded=True):
         Estudo dos padrões de queimadas com Python e bibliotecas de análise de dados.  
         🔗 [GitHub](https://github.com/JulioZequin/AnaliseIncendiosEUA)  
         """)
+
+    
 
 # Tecnologias e Ferramentas
 with st.expander("🛠️ Tecnologias e Ferramentas", expanded=True):
