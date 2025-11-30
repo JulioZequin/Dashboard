@@ -49,8 +49,6 @@ with st.expander("💻 Projetos", expanded=True):
         - Funcionalidades: transmissão interativa, sistema de palpites e engajamento com prêmios  
         """)
 
-    st.markdown("### 📊 Análise de Dados")
-    with st.container():
         st.markdown("### 📈 Análise de Dados sobre Homicídios no Brasil")
     with st.container():
         st.markdown("""
